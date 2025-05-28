@@ -46,7 +46,7 @@ int main() {
     if (pn > 0) {
         cn = ler_float("Consumo GNV (km/m³): ");
     } else {
-        cn = 0.0001; // evita divisão por zero
+        printf("Não há GNV!");
     }
 
     float custo_g = calcular_custo_por_km(pg, cg);
